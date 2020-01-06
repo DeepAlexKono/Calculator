@@ -5,9 +5,14 @@ import Lesson11.Action.ConsoleApplication;
 
 public class Start {
     public static void main(String[] args) {
+
+        System.out.println("Change 1");
+
         Application app = new ConsoleApplication();
         app.run();
 
+
+        // From Lesson11
 
         // Multitier Архитектура
             // User взаимодействует с Action. Action с Service (Калькулятор). Service - обратно к Action либо в репозиторий.
